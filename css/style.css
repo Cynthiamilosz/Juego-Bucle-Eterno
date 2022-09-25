@@ -1,0 +1,21 @@
+body {
+  margin: 0%;
+  padding: 0%; }
+
+.cuerpo {
+  background: -webkit-linear-gradient(-45deg, #000000 10%, #dbb022 20%, #b13516 35%, #9b0a0a 60%, #a83e00 80%, #000000 90%);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; }
+
+.puertas {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  padding-top: 25%;
+  padding-bottom: 30%;
+  margin: auto; }
