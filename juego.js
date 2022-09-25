@@ -1,7 +1,7 @@
 var nombre = prompt ('Bienvenido Humano. ¿Cómo te llamas?');
 var min = 1;
 var max = 100;
-var intentos = 1
+var intentos = 0
 var numero = 22;
 
 for (intentos; intentos < 7; intentos ++) {
@@ -20,7 +20,7 @@ for (intentos; intentos < 7; intentos ++) {
    }
 }
 if(numero == 22) {
-    alert('¡Felicidades '+nombre+'!, has logrado escapar del Bucle Eterno en '+intentos+' intentos, puedes regresar a donde perteneces👽❤');
+    alert('¡Felicidades '+nombre+'!, has logrado escapar del Bucle Eterno en '(+intentos + 1)+' intentos, puedes regresar a donde perteneces👽❤');
 } else {
     alert('Agotaste el número de intentos, Humano. ¡Las puertas de escape se han cerrado!😈💀')
 }

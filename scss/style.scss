@@ -23,3 +23,20 @@ body{
     padding-bottom: 30%;
     margin: auto;
 }
+
+@media only screen and (max-width:900px){
+    body{
+        background: -webkit-linear-gradient(-45deg, #000000 10%, #dbb022 20%, #b13516 35%, #9b0a0a 60%,#a83e00 80%, #000000 90%);
+        background-repeat: no-repeat;
+        height: 1000px;
+    }
+    
+    .puertas{
+        font-size: 100px;
+        font-weight: 200;
+        padding-top:30%;
+        padding-bottom: 30%;
+        justify-content: center;
+        
+}
+}
